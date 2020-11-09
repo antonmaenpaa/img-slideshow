@@ -13,7 +13,7 @@ for (let i = 0; i < imgs.length; i++) {
         imgs[i].classList.remove('show')
 
         let nextIndex = (i + 1);
-        if(nextIndex >= imgs.length -1) {
+        if(nextIndex >= imgs.length) {
             nextIndex = 0;
         }
         imgs[nextIndex].classList.add('show');
