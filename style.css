@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+div {
+    position: relative;
+}
+img {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.show {
+    opacity: 1;
+}
